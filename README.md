@@ -1,5 +1,5 @@
 <h1 align="center">Hi <img align="center" src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" alt="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif"/>, I'm Yash Choudhary</h1>
-<h3 align="center">A budding physicist with keen interest in Data Science.</h3>
+<h3 align="center">A budding physicist with a keen interest in Data Science.</h3>
 
 - 🌱 I’m currently learning **Tensorflow**
 
