@@ -7,6 +7,8 @@
 
 - 📫 How to reach me **yashchoudharbsn@gmail.com**
 
+- 👨‍💻 Check out my website **https://yash-awesome.github.io/**
+
 - ⚡ Fun fact **I like waffles.**
 
 <h3 align="left">Connect with me:</h3>
