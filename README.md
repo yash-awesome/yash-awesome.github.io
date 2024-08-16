@@ -1,4 +1,4 @@
-<h1 align="center">Hi <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="yashchoudharybsn" height="30" width="40" />, I'm Yash Choudhary</h1>
+<h1 align="center">Hi <img align="center" src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" alt="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" height="30" width="40" />, I'm Yash Choudhary</h1>
 <h3 align="center">A budding physicist with keen interest in Data Science.</h3>
 
 - 🌱 I’m currently learning **Tensorflow**
