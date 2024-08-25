@@ -5,6 +5,8 @@
 
 - 📝 I regularly write articles on [Life](Life)
 
+- 👨‍💻 Check out my google sites **[https://yash-awesome.github.io/](https://sites.google.com/iiserb.ac.in/yashchoudhary/home)**
+
 - 📫 How to reach me **yashchoudharbsn@gmail.com**
 
 - 👨‍💻 Check out my website **https://yash-awesome.github.io/**
