@@ -3,13 +3,11 @@
 
 - 🌱 I’m currently learning **Tensorflow**
 
-- 📝 I regularly write articles on [Life](Life)
+- 👨‍💻 Check out my google sites **[GSite](https://sites.google.com/iiserb.ac.in/yashchoudhary/home)**
 
-- 👨‍💻 Check out my google sites **[https://yash-awesome.github.io/](https://sites.google.com/iiserb.ac.in/yashchoudhary/home)**
+- 📫 How to reach me **[Mail here](yashchoudharbsn@gmail.com)**
 
-- 📫 How to reach me **yashchoudharbsn@gmail.com**
-
-- 👨‍💻 Check out my website **https://yash-awesome.github.io/**
+- 👨‍💻 Check out my website **[Github Website](https://yash-awesome.github.io/)**
 
 - ⚡ Fun fact **I like waffles.**
 
