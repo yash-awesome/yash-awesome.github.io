@@ -1,41 +1,155 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0"
- <link rel="stylesheet" href="styles.css">
- <title>Yash's Webpage</title>
-<style>
-body {
-    background-image: url("fEN1A6h-super-mario-backgrounds.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yash's Webpage</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url("fEN1A6h-super-mario-backgrounds.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            min-height: 100vh;
+
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: rgba(0, 0, 0, 0.45);
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        h1 {
+            margin-bottom: 15px;
+            font-size: clamp(2rem, 5vw, 3rem);
+        }
+
+        h3, p, h5 {
+            margin: 12px 0;
+        }
+
+        img.profile {
+            width: min(200px, 70vw);
+            height: auto;
+            border-radius: 10px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        iframe.giphy {
+            width: min(250px, 80vw);
+            height: 250px;
+            border: none;
+            margin: 20px auto;
+            display: block;
+        }
+
+        a {
+            color: #ffd54f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+        marquee {
+            margin: 20px 0;
+            font-size: 1.1rem;
+        }
+
+        audio {
+            width: min(300px, 90%);
+            margin-top: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .profile {
+                float: right;
+                margin-left: 20px;
+                margin-bottom: 10px;
+                width: 180px;
+            }
+
+            .container::after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+        }
+    </style>
 </head>
+
 <body>
- <h1>Hello World</h1>
- <a href="https://youtu.be/CYlkXYgCcII?feature=shared">
-     <img align="right" src="photo.jpg" alt="A rather nostalgic memory" style="width:150px;height:200px">
-  </a>
-<h3>This is Yash's Personal Website.</h3>
-<p>I'm Yash Choudhary.</p>
-<p>I like waffles.</p>
-<p>I am a Super Senior Year Physics Major at IISER Bhopal.</p>
-<br></br>
- <iframe src="https://giphy.com/embed/WtDaSUB8GDiRW" width="178" height="240" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-<br></br>
- <a href="https://www.linkedin.com/in/yashchoudharybsn/">Check out my LinkedIn.</a>
-<br></br>
-<a href="https://sites.google.com/iiserb.ac.in/yashchoudhary/home">Check out my Google Sites.</a>
-<br></br>
- <marquee>I wanna scroll with it</marquee>
- <h5>This website is currently under construction.</h5>
-<audio controls style="width: 100px; height: 20px" autoplay loop>
-        <source src="aud.mp3" type="audio/mp3" />
-</audio>
-<!-- <iframe width="100" height="100" wmode="transparent" src="//www.youtube.com/embed/BMsE5xWAQ60?autoplay=1&loop=1&playlist=BMsE5xWAQ60" frameborder="0" allowfullscreen> -->
+
+<div class="container">
+
+    <h1>Hello World</h1>
+
+    <a href="https://youtu.be/CYlkXYgCcII?feature=shared">
+        <img class="profile"
+             src="photo.jpg"
+             alt="A rather nostalgic memory">
+    </a>
+
+    <h3>This is Yash's Personal Website.</h3>
+
+    <p>I'm Yash Choudhary.</p>
+    <p>I like waffles.</p>
+    <p>I am a Super Senior Year Physics Major at IISER Bhopal.</p>
+
+    <iframe class="giphy"
+        src="https://giphy.com/embed/WtDaSUB8GDiRW"
+        allowfullscreen>
+    </iframe>
+
+    <div class="links">
+        <a href="https://www.linkedin.com/in/yashchoudharybsn/">
+            Check out my LinkedIn.
+        </a>
+
+        <a href="https://sites.google.com/iiserb.ac.in/yashchoudhary/home">
+            Check out my Google Sites.
+        </a>
+    </div>
+
+    <marquee>I wanna scroll with it</marquee>
+
+    <h5>This website is currently under construction.</h5>
+
+    <audio controls autoplay loop>
+        <source src="aud.mp3" type="audio/mp3">
+    </audio>
+
+</div>
+
 </body>
 </html>
