@@ -94,7 +94,10 @@
         .marquee img {
           display: inline-block;
           animation: scroll 10s linear infinite;
-        }
+          /* width: 200px;      /* Set desired width */ */
+          /* height: 150px;     /* Set desired height */ */
+          object-fit: cover; /* Optional: crop to fit */
+            }
         
         @keyframes scroll {
           from {
